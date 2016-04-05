@@ -43,3 +43,12 @@ html, body {
   padding: 20px 0 0 48px;
   box-sizing: border-box;
 }
+
+
+/* TODO: move to drive.css */
+drive-login {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  z-index: 1;
+}
