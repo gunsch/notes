@@ -1,0 +1,33 @@
+Some ideas, not sure on ordering importance:
+
+* pick a framework of some sort. something to support ES6, modules? idk.
+  gulp + WSK is a little too much magic that isn't quite working right.
+
+* figure out Service Workers. how do they work, what do they do.
+
+* figure out how to cache app offline with Service Workers.
+
+* data store offline with JS abstraction (are Service Workers involved?).
+  store basic note text and restore on reload.
+
+* Text thoughts: running log. load at bottom.
+  Big button for moving onto next thing?
+
+* Polymer components or something
+
+* Some sort of JS tests / test framework. Runnable without browser (ideally?).
+  Travis CI?
+
+* storing in Drive instead of in local store.
+
+
+Random UI thoughts:
+
+* Swipe from left for side menu. No visual indicators on main view not about
+  the text itself.
+
+* Separate settings screen? Put everything into side menu for now?
+
+* Menu item: toggle for recording geolocation (low priority)
+* Menu item: toggle for showing metadata next to text (lower priority)
+* Menu item: search
