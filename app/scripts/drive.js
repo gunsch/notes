@@ -81,5 +81,4 @@ DriveHandler.prototype.initialize_ = function() {
   });
 };
 
-// TODO: move somewhere central. modules/requires?
-var handler = new DriveHandler(window);
+module.exports = DriveHandler;

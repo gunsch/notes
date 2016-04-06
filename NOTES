@@ -1,7 +1,6 @@
 Some ideas, not sure on ordering importance:
 
-* pick a framework of some sort. something to support ES6, modules? idk.
-  gulp + WSK is a little too much magic that isn't quite working right.
+* need a deploy story.
 
 * figure out Service Workers. how do they work, what do they do.
 

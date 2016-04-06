@@ -16,6 +16,12 @@
  *  limitations under the License
  *
  */
+
+var Drive = require('./drive.js');
+
+// TODO: move somewhere better. not good but demonstrates modules working.
+var handler = new Drive(window);
+
 /* eslint-env browser */
 (function() {
   'use strict';
